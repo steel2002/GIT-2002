@@ -15,7 +15,7 @@ public class Array22 {
          System.out.println("Enter the max number " +max);
         
     }
-    
+}
 
 // 2. Minimum Element in an Array
 
