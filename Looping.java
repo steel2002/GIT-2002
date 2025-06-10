@@ -180,24 +180,23 @@ class Pat15 {
 
  class Diamond {
   public static void main(String[] args) {
-      int n = 4; // Change this for a bigger or smaller diamond
-
-      for (int i = 1; i <= 2 * n - 1; i++) { // Controls both upper and lower parts
+      int n = 4; 
+      for (int i = 1; i <= 2 * n - 1; i++) { 
           int limit;
           
-          // If i is in the upper half, limit = i; otherwise, it decreases
+         
           if (i <= n) {
               limit = i; 
           } else {
               limit  = 2 * n - i; 
           }
 
-          // Print spaces
+        
           for (int j = 1; j <= n - limit; j++) {
               System.out.print(" ");
           }
 
-          // Print numbers
+   
           for (int j = 1; j <= limit; j++) {
               System.out.print(j + " ");
           }
